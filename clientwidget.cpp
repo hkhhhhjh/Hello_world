@@ -8,6 +8,7 @@ ClientWidget::ClientWidget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::ClientWidget)
 {
+    //这一行是新加上去的
     ui->setupUi(this);
     tcpsocket=nullptr;
     setWindowTitle("客户端");
