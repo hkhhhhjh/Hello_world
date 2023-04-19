@@ -1,0 +1,3 @@
+{"2.8.2",
+ [{"2.8.1",[{load_module,cowboy_clear,brutal_purge,soft_purge,[]}]}],
+ [{"2.8.1",[{load_module,cowboy_clear,brutal_purge,soft_purge,[]}]}]}.

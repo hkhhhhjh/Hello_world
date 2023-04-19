@@ -1,0 +1,9 @@
+{"4.3.7",
+ [{<<".*">>,
+   [{apply,{emqx_rule_engine,load_providers,[]}},
+    {restart_application,emqx_dashboard},
+    {apply,{emqx_plugins,load,[]}}]}],
+ [{<<".*">>,
+   [{apply,{emqx_rule_engine,load_providers,[]}},
+    {restart_application,emqx_dashboard},
+    {apply,{emqx_plugins,load,[]}}]}]}.
